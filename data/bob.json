@@ -1,0 +1,58 @@
+{
+    "hobbies": {
+        "running": {
+            "hours per week": 3,
+            "skill level": 4
+        },
+        "javelling": {
+            "hours per week": 7,
+            "skill level": 8
+        },
+        "dancing": {
+            "hours per week": 17,
+            "skill level": 7
+        }
+    },
+    "foods": {
+        "toast": {
+            "how often per week": 7,
+            "how much i like it": 8
+        },
+        "soup": {
+            "how often per week": 4,
+            "how much i like it": 7
+        },
+        "pasta": {
+            "how often per week": 3,
+            "how much i like it": 5
+        }
+    },
+    "friends": {
+        "Ronald": [
+            "oliver",
+            "Billy"
+        ],
+        "Oliver": [
+            "Ronald",
+            "Leo"
+        ]
+    },
+    "family": {
+        "Jenny": {
+            "who": "Sister",
+            "personality": "loud",
+            "what i like about them": "there is nothing to like"
+        },
+        "Ellie": {
+            "who": "Mum",
+            "personality": "quiet",
+            "what i like about them": "they are super awesome"
+        },
+        "Desmond": {
+            "who": "Dad",
+            "personality": "cool",
+            "what i like about them": "they are very funny"
+        }
+    },
+    "password": "65cbe1e19791d49b023800b3e22714e2589b6339bef5e660b628dd1023506ebd"
+}
