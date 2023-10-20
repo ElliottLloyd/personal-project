@@ -106,25 +106,20 @@ def family():
     print()
     print("\033[0m\033[4m\033[1mMY FAMILY\033[0m")
     print()
-    
+    familyList=["Cancel"]
     for member in data['family']:
         print("\033[92mMy", data['family'][member]['who'],"is",member)
         print(member,"is very", data['family'][member]['personality'])
         print()
+        familyList.append(member)
     print("For more information:")
     print()
-    familylist=["Cancel","Robin","Helen","Simon"]
-    number=getChoice(familylist)
     
+    number=getChoice(familyList)
     if number == 1:
         print("Returning to menu.")
     else:
-        if number == 2:
-            name = "Robin"
-        elif number ==3:
-            name = "Helen"
-        elif number == 4:
-            name = "Simon"
+        name = familyList[number-1]
         
         print ("What I like about",name,"is that",data['family'][name]['what i like about them'])
 
